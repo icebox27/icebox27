@@ -1,0 +1,9 @@
+Equivalent to information schema on Oracle
+
+You can list tables by querying all_tables:
+
+  SELECT * FROM all_tables  <OR>  SELECT table_name from all_tables
+  
+And you can list columns of a table by querying all_tab_columns: 
+
+SELECT * FROM all_tab_columns WHERE table_name = 'Your Table_name'  <OR>  SELECT column_name from all_tab_columns where table_name= 'Your_table_name'

